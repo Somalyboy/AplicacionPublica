@@ -14,7 +14,27 @@ namespace Modelo
             using (var conexion = GetConnection())
             {
                 conexion.Open();
+                using (var comando = new SqlCommand())
+                {
+                    comando.Connection = conexion;
+                    comando.CommandText = "Select * from usuario where ID=@id AND nombre=@nombre";
+                    comando.Parameters.AddWithValue("@ID", id);
+                    comando.Parameters.AddWithValue("@nombre", nombre);
+                    comando.CommandType = System.Data.CommandType.Text;
+                    SqlDataReader reader = comando.ExecuteReader();
+
+                    if (reader.HasRows)
+                    {
+                        return true;
+                    }
+                    else
+                    {
+                        return false;
+                    }
+
+                }
             }
+            
         }
 
     }
