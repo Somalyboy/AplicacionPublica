@@ -11,3 +11,5 @@ C:\Users\Luciano Vidal\source\repos\AplicacionPublica\LoginUsuarios\obj\Debug\Vi
 C:\Users\Luciano Vidal\source\repos\AplicacionPublica\LoginUsuarios\obj\Debug\Vista.csproj.CopyComplete
 C:\Users\Luciano Vidal\source\repos\AplicacionPublica\LoginUsuarios\obj\Debug\LoginUsuarios.exe
 C:\Users\Luciano Vidal\source\repos\AplicacionPublica\LoginUsuarios\obj\Debug\LoginUsuarios.pdb
+C:\Users\Luciano Vidal\source\repos\AplicacionPublica\LoginUsuarios\bin\Debug\Modelo.dll
+C:\Users\Luciano Vidal\source\repos\AplicacionPublica\LoginUsuarios\bin\Debug\Modelo.pdb

@@ -7,7 +7,7 @@ using System.Data.SqlClient;
 
 namespace Modelo
 {
-    class UsuarioModelo:ConexionSql
+    public class UsuarioModelo:ConexionSql
     {
         public bool Login(string id,string nombre)
         {
