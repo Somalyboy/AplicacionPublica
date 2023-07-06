@@ -1,0 +1,6 @@
+C:\Users\Luciano Vidal\source\repos\AplicacionPublica\Modelo\bin\Debug\Modelo.dll
+C:\Users\Luciano Vidal\source\repos\AplicacionPublica\Modelo\bin\Debug\Modelo.pdb
+C:\Users\Luciano Vidal\source\repos\AplicacionPublica\Modelo\obj\Debug\Modelo.csprojAssemblyReference.cache
+C:\Users\Luciano Vidal\source\repos\AplicacionPublica\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\Luciano Vidal\source\repos\AplicacionPublica\Modelo\obj\Debug\Modelo.dll
+C:\Users\Luciano Vidal\source\repos\AplicacionPublica\Modelo\obj\Debug\Modelo.pdb

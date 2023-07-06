@@ -1,0 +1,13 @@
+C:\Users\Luciano Vidal\source\repos\AplicacionPublica\LoginUsuarios\bin\Debug\LoginUsuarios.exe.config
+C:\Users\Luciano Vidal\source\repos\AplicacionPublica\LoginUsuarios\bin\Debug\LoginUsuarios.exe
+C:\Users\Luciano Vidal\source\repos\AplicacionPublica\LoginUsuarios\bin\Debug\LoginUsuarios.pdb
+C:\Users\Luciano Vidal\source\repos\AplicacionPublica\LoginUsuarios\bin\Debug\Controladres.dll
+C:\Users\Luciano Vidal\source\repos\AplicacionPublica\LoginUsuarios\bin\Debug\Controladres.pdb
+C:\Users\Luciano Vidal\source\repos\AplicacionPublica\LoginUsuarios\obj\Debug\Vista.csprojAssemblyReference.cache
+C:\Users\Luciano Vidal\source\repos\AplicacionPublica\LoginUsuarios\obj\Debug\LoginUsuarios.Form1.resources
+C:\Users\Luciano Vidal\source\repos\AplicacionPublica\LoginUsuarios\obj\Debug\LoginUsuarios.Properties.Resources.resources
+C:\Users\Luciano Vidal\source\repos\AplicacionPublica\LoginUsuarios\obj\Debug\Vista.csproj.GenerateResource.cache
+C:\Users\Luciano Vidal\source\repos\AplicacionPublica\LoginUsuarios\obj\Debug\Vista.csproj.CoreCompileInputs.cache
+C:\Users\Luciano Vidal\source\repos\AplicacionPublica\LoginUsuarios\obj\Debug\Vista.csproj.CopyComplete
+C:\Users\Luciano Vidal\source\repos\AplicacionPublica\LoginUsuarios\obj\Debug\LoginUsuarios.exe
+C:\Users\Luciano Vidal\source\repos\AplicacionPublica\LoginUsuarios\obj\Debug\LoginUsuarios.pdb

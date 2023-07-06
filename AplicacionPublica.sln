@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.33801.198
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vista", "LoginUsuarios\Vista.csproj", "{BBDD6B7A-5812-45FD-8E54-17BADEAED68E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modelo", "Modelo\Modelo.csproj", "{114DDCA9-06C5-4F9A-A7CA-8876CA6401BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controladres", "Controladres\Controladres.csproj", "{71954502-D6E0-48FC-ADC5-CA9FAF724138}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBDD6B7A-5812-45FD-8E54-17BADEAED68E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBDD6B7A-5812-45FD-8E54-17BADEAED68E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBDD6B7A-5812-45FD-8E54-17BADEAED68E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBDD6B7A-5812-45FD-8E54-17BADEAED68E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{114DDCA9-06C5-4F9A-A7CA-8876CA6401BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{114DDCA9-06C5-4F9A-A7CA-8876CA6401BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{114DDCA9-06C5-4F9A-A7CA-8876CA6401BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{114DDCA9-06C5-4F9A-A7CA-8876CA6401BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71954502-D6E0-48FC-ADC5-CA9FAF724138}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71954502-D6E0-48FC-ADC5-CA9FAF724138}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71954502-D6E0-48FC-ADC5-CA9FAF724138}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71954502-D6E0-48FC-ADC5-CA9FAF724138}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC3B658C-04EB-4717-BE84-D85855B0C264}
+	EndGlobalSection
+EndGlobal

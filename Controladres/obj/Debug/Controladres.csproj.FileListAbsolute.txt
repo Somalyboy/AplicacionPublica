@@ -1,0 +1,9 @@
+C:\Users\Luciano Vidal\source\repos\AplicacionPublica\Controladres\bin\Debug\Controladres.dll
+C:\Users\Luciano Vidal\source\repos\AplicacionPublica\Controladres\bin\Debug\Controladres.pdb
+C:\Users\Luciano Vidal\source\repos\AplicacionPublica\Controladres\bin\Debug\Modelo.dll
+C:\Users\Luciano Vidal\source\repos\AplicacionPublica\Controladres\bin\Debug\Modelo.pdb
+C:\Users\Luciano Vidal\source\repos\AplicacionPublica\Controladres\obj\Debug\Controladres.csprojAssemblyReference.cache
+C:\Users\Luciano Vidal\source\repos\AplicacionPublica\Controladres\obj\Debug\Controladres.csproj.CoreCompileInputs.cache
+C:\Users\Luciano Vidal\source\repos\AplicacionPublica\Controladres\obj\Debug\Controladres.csproj.CopyComplete
+C:\Users\Luciano Vidal\source\repos\AplicacionPublica\Controladres\obj\Debug\Controladres.dll
+C:\Users\Luciano Vidal\source\repos\AplicacionPublica\Controladres\obj\Debug\Controladres.pdb
