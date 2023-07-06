@@ -13,3 +13,4 @@ C:\Users\Luciano Vidal\source\repos\AplicacionPublica\LoginUsuarios\obj\Debug\Lo
 C:\Users\Luciano Vidal\source\repos\AplicacionPublica\LoginUsuarios\obj\Debug\LoginUsuarios.pdb
 C:\Users\Luciano Vidal\source\repos\AplicacionPublica\LoginUsuarios\bin\Debug\Modelo.dll
 C:\Users\Luciano Vidal\source\repos\AplicacionPublica\LoginUsuarios\bin\Debug\Modelo.pdb
+C:\Users\Luciano Vidal\source\repos\AplicacionPublica\LoginUsuarios\obj\Debug\LoginUsuarios.FormChoferes.resources

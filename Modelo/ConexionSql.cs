@@ -13,7 +13,7 @@ namespace Modelo
 
         public ConexionSql()
         {
-            StringDeConexion = "Server=127.0.0.1;userid=root;password=negritoBD123;database=usuarios";
+            StringDeConexion = "Server=127.0.0.1;user=root;password=negritoBD123;database=usuarios";
         }
         protected SqlConnection GetConnection()
         {
