@@ -33,7 +33,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.txtId = new System.Windows.Forms.TextBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
-            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
+            this.chkUsuarios = new System.Windows.Forms.CheckedListBox();
             this.btn_Aceptar = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.lblError = new System.Windows.Forms.Label();
@@ -86,19 +86,19 @@
             this.txtNombre.Size = new System.Drawing.Size(122, 26);
             this.txtNombre.TabIndex = 4;
             // 
-            // checkedListBox1
+            // chkUsuarios
             // 
-            this.checkedListBox1.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Items.AddRange(new object[] {
+            this.chkUsuarios.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkUsuarios.FormattingEnabled = true;
+            this.chkUsuarios.Items.AddRange(new object[] {
             "Chofer",
             "Administrador",
             "Seguimiento",
             "Almacenes"});
-            this.checkedListBox1.Location = new System.Drawing.Point(240, 71);
-            this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(159, 88);
-            this.checkedListBox1.TabIndex = 5;
+            this.chkUsuarios.Location = new System.Drawing.Point(240, 71);
+            this.chkUsuarios.Name = "chkUsuarios";
+            this.chkUsuarios.Size = new System.Drawing.Size(159, 88);
+            this.chkUsuarios.TabIndex = 5;
             // 
             // btn_Aceptar
             // 
@@ -143,7 +143,7 @@
             this.Controls.Add(this.lblError);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btn_Aceptar);
-            this.Controls.Add(this.checkedListBox1);
+            this.Controls.Add(this.chkUsuarios);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.txtId);
             this.Controls.Add(this.label3);
@@ -163,7 +163,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtId;
         private System.Windows.Forms.TextBox txtNombre;
-        private System.Windows.Forms.CheckedListBox checkedListBox1;
+        private System.Windows.Forms.CheckedListBox chkUsuarios;
         private System.Windows.Forms.Button btn_Aceptar;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label lblError;

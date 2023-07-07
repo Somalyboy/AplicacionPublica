@@ -33,12 +33,10 @@ namespace LoginUsuarios
         {
             /*   if(txtId.Text == " "){
                    if (txtNombre.Text == " "){
-
                    }
-                   else mensajeError("Debe ingresar un ID");
-               }
+                   else mensajeError("Debe ingresar un ID");            La idea de estas condiciones es que aparezca 
+               }                                                        un cartel de aviso si se dejo algun campo incompleto
                  else  mensajeError("Debe Ingresar su Nombre");
-
                }
 
            private void mensajeError(string msg)
@@ -47,10 +45,11 @@ namespace LoginUsuarios
                lblError.Visible = true;
            }*/
 
+
             UsuarioControlador control = new UsuarioControlador();
             var validLogin = control.LoginUser(txtId.Text,txtNombre.Text);
-            if (validLogin)
-            {
+            if (validLogin && chkUsuarios.AccessibleName == " chofer ") // No se si es asi el check de choferes, pero es un ejemplo de como seria  
+            {                                                           // la condicion segun el Usuario(check) se haya elejido
                 FormChoferes form = new FormChoferes();
                 form.Show();
                 this.Hide();
