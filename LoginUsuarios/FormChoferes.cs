@@ -16,5 +16,11 @@ namespace LoginUsuarios
         {
             InitializeComponent();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            Form1 form = new Form1();
+           // label2.Text = form.txtNombre.Text;
+        }
     }
 }

@@ -95,9 +95,9 @@
             "Administrador",
             "Seguimiento",
             "Almacenes"});
-            this.checkedListBox1.Location = new System.Drawing.Point(261, 71);
+            this.checkedListBox1.Location = new System.Drawing.Point(240, 71);
             this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(134, 88);
+            this.checkedListBox1.Size = new System.Drawing.Size(159, 88);
             this.checkedListBox1.TabIndex = 5;
             // 
             // btn_Aceptar
@@ -139,7 +139,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.ClientSize = new System.Drawing.Size(397, 295);
+            this.ClientSize = new System.Drawing.Size(406, 303);
             this.Controls.Add(this.lblError);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btn_Aceptar);

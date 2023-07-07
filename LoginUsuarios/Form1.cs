@@ -51,7 +51,7 @@ namespace LoginUsuarios
             var validLogin = control.LoginUser(txtId.Text,txtNombre.Text);
             if (validLogin)
             {
-                Form1 form = new Form1();
+                FormChoferes form = new FormChoferes();
                 form.Show();
                 this.Hide();
             }
