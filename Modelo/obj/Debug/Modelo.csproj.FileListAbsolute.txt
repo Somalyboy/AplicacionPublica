@@ -142,3 +142,6 @@ C:\Users\Luciano Vidal\source\repos\AplicacionPublica\Modelo\bin\Debug\System.Te
 C:\Users\Luciano Vidal\source\repos\AplicacionPublica\Modelo\bin\Debug\System.Text.Json.xml
 C:\Users\Luciano Vidal\source\repos\AplicacionPublica\Modelo\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\Luciano Vidal\source\repos\AplicacionPublica\Modelo\obj\Debug\Modelo.csproj.CopyComplete
+C:\Users\Luciano Vidal\source\repos\AplicacionPublica\Modelo\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Luciano Vidal\source\repos\AplicacionPublica\Modelo\bin\Debug\ZstdSharp.dll
+C:\Users\Luciano Vidal\source\repos\AplicacionPublica\Modelo\bin\Debug\System.Diagnostics.DiagnosticSource.xml

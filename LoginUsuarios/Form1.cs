@@ -46,20 +46,22 @@ namespace LoginUsuarios
            }*/
 
 
-            UsuarioControlador control = new UsuarioControlador();
-            var validLogin = control.LoginUser(txtId.Text,txtNombre.Text);
-            if (validLogin && chkUsuarios.AccessibleName == " chofer ") // No se si es asi el check de choferes, pero es un ejemplo de como seria  
-            {                                                           // la condicion segun el Usuario(check) se haya elejido
-                FormChoferes form = new FormChoferes();
-                form.Show();
-                this.Hide();
-            }
-            else
-            {
-                MessageBox.Show("Algo salio mal :c");
-            }
+           UsuarioControlador control = new UsuarioControlador();
+            control.LoginUser(txtId.Text,txtNombre.Text);
+
+            /* if (validLogin && chkUsuarios.AccessibleName == " chofer ") // No se si es asi el check de choferes, pero es un ejemplo de como seria  
+             {                                                           // la condicion segun el Usuario(check) se haya elejido
+                 FormChoferes form = new FormChoferes();
+                 form.Show();
+                 this.Hide();
+             }
+             else
+             {
+                 MessageBox.Show("Algo salio mal :c");
+             }*/
 
 
+            MessageBox.Show("Usuario Encontrado");
         }
     }
 }

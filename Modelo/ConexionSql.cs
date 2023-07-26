@@ -3,46 +3,47 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Data.SqlClient;
+using MySql.Data.MySqlClient;
 using System.Data;
 
 namespace Modelo
 {
     public abstract class ConexionSql
     {
-        public SqlConnection conexion;
-        public SqlCommand comando;
-        
- 
+        public string DatabaseIp;
+        public string DatabaseUser;
+        public string DatabasePassword;
+        public string DatabaseName;
+
+        public MySqlConnection conexion;
+        public MySqlCommand comando;
+        public MySqlDataReader Reader;
+
         public ConexionSql()
         {
             conectarBaseDeDatos();
-            iniciarComandos();
-
+            
         }
-        // private readonly
-        /*   StringDeConexion = "Server=(local);user=root;password=negritoBD123;database=usuarios";
-        string StringDeConexion;
-        StringDeConexion = "Server=127.0.0.1;Uid=root;Pwd=negritoBD123;Database=usuarios;";
-        SqlConnection conexion = new SqlConnection(StringDeConexion);
-        conexion.Open();*/
-        private void iniciarComandos()
-            {
-                comando = new SqlCommand();
-                comando.Connection = conexion;
-            }
-
+        
             private void conectarBaseDeDatos()
             {
-                conexion = new SqlConnection(
-                    "server=127.0.0.1;" +
-                    "user=root;" +
-                    "password=negritoBD123;" +
-                    "database=usuarios;" +
-                    "port=3308"
-                );
-               conexion.Open();
-            }
+            this.DatabaseIp = "127.0.0.1";
+            this.DatabaseUser = "root";
+            this.DatabasePassword = "negritoBD123";
+            this.DatabaseName = "usuarios";
+
+            this.conexion = new MySqlConnection(
+                $"server={this.DatabaseIp};" +
+                $"user={this.DatabaseUser};" +
+                $"password={this.DatabasePassword};" +
+                $"database={this.DatabaseName};"
+            );
+
+            this.conexion.Open();
+
+            this.comando = new MySqlCommand();
+            this.comando.Connection = this.conexion;
+        }
         
     }
 }

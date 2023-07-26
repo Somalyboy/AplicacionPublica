@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Data.SqlClient;
+using MySql.Data.MySqlClient;
 using System.Data;
 
 namespace Modelo
@@ -21,7 +21,7 @@ namespace Modelo
             comando.Parameters.AddWithValue("@ID", id);
             comando.Parameters.AddWithValue("@nombre", nombre);
             comando.CommandType = System.Data.CommandType.Text;
-            SqlDataReader reader = comando.ExecuteReader();
+            MySqlDataReader reader = comando.ExecuteReader();
 
             comando.Prepare();
             comando.ExecuteNonQuery();
