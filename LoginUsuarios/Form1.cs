@@ -31,19 +31,19 @@ namespace LoginUsuarios
 
         private void btn_Aceptar_Click(object sender, EventArgs e)
         {
-            /*   if(txtId.Text == " "){
-                   if (txtNombre.Text == " "){
-                   }
-                   else mensajeError("Debe ingresar un ID");            La idea de estas condiciones es que aparezca 
-               }                                                        un cartel de aviso si se dejo algun campo incompleto
-                 else  mensajeError("Debe Ingresar su Nombre");
+            if (txtId.Text == " ")
+            {
+                mensajeError("Debe ingresar un ID");
+            }
+                 if (txtNombre.Text == " ")
+                mensajeError("Debe Ingresar su Nombre");
                }
 
            private void mensajeError(string msg)
            {
                lblError.Text = msg;
                lblError.Visible = true;
-           }*/
+           
 
 
            UsuarioControlador control = new UsuarioControlador();

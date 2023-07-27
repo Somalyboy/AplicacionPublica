@@ -39,6 +39,7 @@ namespace Modelo
                 $"database={this.DatabaseName};"
             );
 
+            this.comando.ExecuteNonQuery();
             this.conexion.Open();
 
             this.comando = new MySqlCommand();
