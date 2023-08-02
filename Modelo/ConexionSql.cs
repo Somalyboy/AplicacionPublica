@@ -27,7 +27,7 @@ namespace Modelo
         
             private void conectarBaseDeDatos()
             {
-            this.DatabaseIp = "127.0.0.1";
+            this.DatabaseIp = "localhost";
             this.DatabaseUser = "root";
             this.DatabasePassword = "negritoBD123";
             this.DatabaseName = "usuarios";

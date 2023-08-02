@@ -31,6 +31,24 @@ namespace LoginUsuarios
 
         private void btn_Aceptar_Click(object sender, EventArgs e)
         {
+            UsuarioControlador control = new UsuarioControlador();
+            control.LoginUser(txtId.Text, txtNombre.Text);
+
+            string id;
+            string nombre;
+
+            id = txtId.Text;
+            nombre = txtNombre.Text;
+
+            if (chkboxcamioneros.Checked && control.LoginUser(id,nombre)) {
+                MessageBox.Show("Usuario Encontrado");
+
+            }
+            else
+            {
+                MessageBox.Show("Algo salio mal :( //Usuario no Encontrado");
+            }
+            
             if (txtId.Text == " ")
             {
                 mensajeError("Debe ingresar un ID");
@@ -43,25 +61,7 @@ namespace LoginUsuarios
            {
                lblError.Text = msg;
                lblError.Visible = true;
-           
-
-
-           UsuarioControlador control = new UsuarioControlador();
-            control.LoginUser(txtId.Text,txtNombre.Text);
-
-            /* if (validLogin && chkUsuarios.AccessibleName == " chofer ") // No se si es asi el check de choferes, pero es un ejemplo de como seria  
-             {                                                           // la condicion segun el Usuario(check) se haya elejido
-                 FormChoferes form = new FormChoferes();
-                 form.Show();
-                 this.Hide();
-             }
-             else
-             {
-                 MessageBox.Show("Algo salio mal :c");
-             }*/
-
-
-            MessageBox.Show("Usuario Encontrado");
+        
         }
     }
 }
