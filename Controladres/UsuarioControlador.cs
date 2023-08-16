@@ -10,7 +10,7 @@ namespace Controladres
     public class UsuarioControlador
     {
         UsuarioModelo modelo = new UsuarioModelo();
-        public bool LoginUser(string id, string nombre)
+        public bool Login(string id, string nombre)
         {
             return modelo.Login(id,nombre);
         }

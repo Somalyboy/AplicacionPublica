@@ -145,3 +145,5 @@ C:\Users\Luciano Vidal\source\repos\AplicacionPublica\Modelo\obj\Debug\Modelo.cs
 C:\Users\Luciano Vidal\source\repos\AplicacionPublica\Modelo\bin\Debug\System.Diagnostics.DiagnosticSource.dll
 C:\Users\Luciano Vidal\source\repos\AplicacionPublica\Modelo\bin\Debug\ZstdSharp.dll
 C:\Users\Luciano Vidal\source\repos\AplicacionPublica\Modelo\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Luciano Vidal\source\repos\AplicacionPublica\Modelo\obj\Debug\Interop.ADODB.dll
+C:\Users\Luciano Vidal\source\repos\AplicacionPublica\Modelo\obj\Debug\Modelo.csproj.ResolveComReference.cache

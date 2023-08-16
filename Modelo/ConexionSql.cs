@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using MySql.Data.MySqlClient;
 using System.Data;
-
+//using MySqlConnector;
+using MySql.Data.MySqlClient;
 namespace Modelo
 {
     public abstract class ConexionSql
@@ -15,36 +15,31 @@ namespace Modelo
         public string DatabasePassword;
         public string DatabaseName;
 
-        public MySqlConnection conexion;
-        public MySqlCommand comando;
-        public MySqlDataReader Reader;
+        /*   public MySqlConnection conexion;
+           public MySqlCommand comando;
+           public MySqlDataReader Reader;
+           */
+           
+       public  ADODB.Connection conexion = new ADODB.Connection();
 
-        public ConexionSql()
+
+            public ConexionSql()
         {
+
             conectarBaseDeDatos();
-            
         }
-        
+
             private void conectarBaseDeDatos()
             {
-            this.DatabaseIp = "localhost";
-            this.DatabaseUser = "root";
-            this.DatabasePassword = "negritoBD123";
-            this.DatabaseName = "usuarios";
+            //  string connectionString = "server=localhost;user=root;password=negritoBD123;database=usuarios;";
 
-            this.conexion = new MySqlConnection(
-                $"server={this.DatabaseIp};" +
-                $"user={this.DatabaseUser};" +
-                $"password={this.DatabasePassword};" +
-                $"database={this.DatabaseName};"
-            );
 
-            this.comando.ExecuteNonQuery();
-            this.conexion.Open();
 
-            this.comando = new MySqlCommand();
-            this.comando.Connection = this.conexion;
+            //MySqlConnection connection = new MySqlConnection(connectionString);
+            conexion.Open("MiODBC","root","negritoBD123");
+            conexion.CursorLocation = ADODB.CursorLocationEnum.adUseClient;
+  
         }
-        
+
     }
 }

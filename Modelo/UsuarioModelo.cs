@@ -14,9 +14,13 @@ namespace Modelo
         public string Nombre;
         public string Apellido;
 
+
         public bool Login(string id, string nombre)
         {
+            ADODB.Recordset rs;
+            object filasAfectadas;
 
+/*
             comando.CommandText = "Select * from usuario where ID=@id AND nombre=@nombre";
             comando.Parameters.AddWithValue("@ID", id);
             comando.Parameters.AddWithValue("@nombre", nombre);
@@ -34,6 +38,18 @@ namespace Modelo
             {
                 return false;
             }
+            */
+            string sql = "Select * from usuario where ID='"+id+"' AND nombre='"+nombre+"'";
+            rs = conexion.Execute(sql,out filasAfectadas);
+            if (rs.RecordCount == 1)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+
 
         }
 

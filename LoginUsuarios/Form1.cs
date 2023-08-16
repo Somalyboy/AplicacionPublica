@@ -32,7 +32,7 @@ namespace LoginUsuarios
         private void btn_Aceptar_Click(object sender, EventArgs e)
         {
             UsuarioControlador control = new UsuarioControlador();
-            control.LoginUser(txtId.Text, txtNombre.Text);
+            control.Login(string id, string nombre);
 
             string id;
             string nombre;
@@ -40,7 +40,7 @@ namespace LoginUsuarios
             id = txtId.Text;
             nombre = txtNombre.Text;
 
-            if (chkboxcamioneros.Checked && control.LoginUser(id,nombre)) {
+            if (chkboxcamioneros.Checked && control.Login(id,nombre)) {
                 MessageBox.Show("Usuario Encontrado");
 
             }
@@ -61,7 +61,6 @@ namespace LoginUsuarios
            {
                lblError.Text = msg;
                lblError.Visible = true;
-        
-        }
+           }
     }
 }
